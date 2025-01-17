@@ -47,7 +47,7 @@ st.image(im, width=500)
 
 
 import pandas as pd
-df = pd.read_excel('sampledata.xlsx')
+df = pd.read_excel('sampleData.xlsx')
 st.dataframe(df)
 
 st.bar_chart(df, x="Location", y="Income")
